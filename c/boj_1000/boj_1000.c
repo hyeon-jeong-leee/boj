@@ -3,10 +3,13 @@
 
 int main(void)
 {
-	int a;
-	int b;
+	double a;
+	double b;
+	double result;
 	scanf("%d %d", &a, &b);
 	//printf("%d", a+b);
 	//printf("%d", a - b);
-	printf("%d", a * b);
+	//printf("%d", a * b);
+	result = a / b;
+	printf("%.9f", result);
 }
